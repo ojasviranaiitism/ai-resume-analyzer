@@ -1,87 +1,55 @@
-# Welcome to React Router!
+# 📄 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+## ✨ Introduction
+AI Resume Analyzer is a browser-based application that helps candidates optimize their resumes using **AI-powered ATS scoring** and **custom feedback**. Built with **React**, **Puter.js**, and a modern UI stack, it provides instant insights, secure resume storage, and personalized improvement tips.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+Unlike other analyzers, this project runs **entirely in your browser** with no backend setup required—ensuring **privacy, speed, and accessibility**.
 
 ---
 
-Built with ❤️ using React Router.
+## 🚀 Benefits
+- **Job Seekers** → Instantly test resumes against job descriptions and get actionable suggestions.  
+- **Career Coaches** → Provide clients with AI-driven resume feedback.  
+- **Everyone** → Save time, avoid repetitive edits, and ensure ATS compatibility.  
+
+💡 Faster, safer, and smarter than traditional analyzers thanks to **Puter.js**.
+
+---
+
+## 🛠 Tech Stack
+- **React** – UI components  
+- **React Router v7** – Advanced routing  
+- **Puter.js** – Serverless auth, storage & AI  
+- **Tailwind CSS** – Modern responsive styling  
+- **TypeScript** – Type safety & better tooling  
+- **Vite** – Fast build tool & dev server  
+- **Zustand** – Lightweight state management  
+
+---
+
+## 🔋 Features
+- 🔐 Authentication in the browser (no backend)  
+- 📂 Resume upload & secure storage  
+- 🤖 AI-powered ATS scoring & feedback  
+- 🎨 Modern, responsive UI with Tailwind CSS  
+- ♻️ Clean, reusable component architecture  
+
+---
+
+## ⚡ Quick Start
+
+### Prerequisites
+- [Git](https://git-scm.com/)  
+- [Node.js](https://nodejs.org/) (with npm)
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
+cd ai-resume-analyzer
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
