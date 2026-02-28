@@ -36,13 +36,7 @@ Unlike other analyzers, this project runs **entirely in your browser** with no b
 
 ---
 
-## ⚡ Quick Start
-
-### Prerequisites
-- [Git](https://git-scm.com/)  
-- [Node.js](https://nodejs.org/) (with npm)
-
-### Setup
+## Setup
 ```bash
 # Clone the repository
 git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
